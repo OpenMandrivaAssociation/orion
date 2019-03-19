@@ -12,6 +12,7 @@ BuildRequires:	pkgconfig(Qt5WebEngine)
 BuildRequires:	pkgconfig(Qt5Multimedia)
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	desktop-file-utils
+BuildRequires:  qmake5
 Requires:	hicolor-icon-theme
 Requires:	qtquickcontrols5
 
