@@ -18,7 +18,7 @@ BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	desktop-file-utils
 BuildRequires:  qmake5
 Requires:	hicolor-icon-theme
-Requires:	qtquickcontrols5
+Requires:	qt5-qtquickcontrols
 
 %description
 Desktop client for Twitch based on QML/C++
