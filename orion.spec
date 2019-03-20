@@ -1,3 +1,5 @@
+%global optflags %{optflags} -Ofast
+
 Name:		orion
 Version:	1.6.6
 Release:	1
