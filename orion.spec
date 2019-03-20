@@ -17,6 +17,10 @@ BuildRequires:	pkgconfig(Qt5Multimedia)
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	desktop-file-utils
 BuildRequires:  qmake5
+BuildRequires:  pkgconfig(gl)
+BuildRequires:  pkgconfig(mpv)
+BuildRequires:  glesv3-devel
+Requires: mpv
 Requires:	hicolor-icon-theme
 Requires:	qt5-qtquickcontrols
 
@@ -31,7 +35,7 @@ Desktop client for Twitch based on QML/C++
 mkdir build
 cd build
 # Is possible to build Orion with MPV (CONFIG+=mpv), QtAV (CONFIG+=qtav) or Qt5 Multimedia (CONFIG+=multimedia). (Penguin)
-%{qmake_qt5} ../ "CONFIG+=multimedia"
+%{qmake_qt5} ../ "CONFIG+=mpv"
 %make_build
 
 %install
