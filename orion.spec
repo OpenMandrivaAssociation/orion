@@ -6,6 +6,7 @@ Group:		Video/Players
 License:	GPLv3+
 URL:		https://github.com/alamminsalo/orion
 Source0:	https://github.com/alamminsalo/orion/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5QuickControls2)
 BuildRequires:	pkgconfig(Qt5Svg)
 BuildRequires:	pkgconfig(Qt5WebEngine)
