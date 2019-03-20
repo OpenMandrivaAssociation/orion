@@ -34,10 +34,6 @@ cd build
 cd build
 %make_install INSTALL_ROOT=%{buildroot}
 
-%check
-desktop-file-validate %{buildroot}%{_datadir}/applications/Orion.desktop
-appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/Orion.appdata.xml
-
 %files
 %{_bindir}/orion
 %{_datadir}/metainfo/Orion.appdata.xml
