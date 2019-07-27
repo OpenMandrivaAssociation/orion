@@ -35,7 +35,7 @@ Desktop client for Twitch based on QML/C++
 mkdir build
 cd build
 # Is possible to build Orion with MPV (CONFIG+=mpv), QtAV (CONFIG+=qtav) or Qt5 Multimedia (CONFIG+=multimedia). (Penguin)
-%{qmake_qt5} ../ "CONFIG+=mpv"
+%{qmake_qt5} ../ "CONFIG+=mpv" "CONFIG += c++14"
 %make_build
 
 %install
