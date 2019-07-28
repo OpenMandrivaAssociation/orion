@@ -20,6 +20,7 @@ BuildRequires:  qmake5
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(mpv)
 BuildRequires:  glesv3-devel
+BuildRequires:  cmake(QtAV)
 Requires: mpv
 Requires:	hicolor-icon-theme
 Requires:	qt5-qtquickcontrols
