@@ -19,7 +19,7 @@ BuildRequires:	desktop-file-utils
 BuildRequires:  qmake5
 BuildRequires:  pkgconfig(gl)
 #BuildRequires:  pkgconfig(mpv)
-BuildRequires:  glesv3-devel
+#BuildRequires:  glesv3-devel
 #Requires: mpv
 Requires:	hicolor-icon-theme
 Requires:	qt5-qtquickcontrols
