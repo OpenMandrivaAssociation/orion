@@ -46,5 +46,5 @@ cd build
 %{_bindir}/orion
 #{_datadir}/metainfo/Orion.appdata.xml
 %{_datadir}/applications/Orion.desktop
-%{_datadir}/icons/%{name}.svg
+#{_datadir}/icons/%{name}.svg
 %license COPYING LICENSE.txt
