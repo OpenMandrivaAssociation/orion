@@ -1,7 +1,7 @@
 %global optflags %{optflags} -Ofast
 
 Name:		orion
-Version:	1.6.6
+Version:	1.6.7
 Release:	1
 Summary:	Desktop client for Twitch.
 Group:		Video/Players
@@ -19,7 +19,7 @@ BuildRequires:	desktop-file-utils
 BuildRequires:  qmake5
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(mpv)
-BuildRequires:  glesv3-devel
+#BuildRequires:  glesv3-devel
 BuildRequires:  cmake(QtAV)
 Requires: mpv
 Requires:	hicolor-icon-theme
