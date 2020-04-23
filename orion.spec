@@ -2,7 +2,7 @@
 
 Name:		orion
 Version:	1.6.7
-Release:	1
+Release:	2
 Summary:	Desktop client for Twitch.
 Group:		Video/Players
 License:	GPLv3+
