@@ -1,8 +1,9 @@
+%global debug_package %{nil}
 %global optflags %{optflags} -Ofast
 
 Name:		orion
 Version:	1.6.7
-Release:	2
+Release:	3
 Summary:	Desktop client for Twitch.
 Group:		Video/Players
 License:	GPLv3+
