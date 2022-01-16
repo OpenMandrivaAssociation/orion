@@ -9,7 +9,7 @@ Group:		Video/Players
 License:	GPLv3+
 URL:		https://github.com/alamminsalo/orion
 Source0:	https://github.com/alamminsalo/orion/archive/%{version}/%{name}-%{version}.tar.gz
-#Patch0:   orion-1.6.6-fix-install-prefix-openmandriva.patch
+Patch0:		fix-missing-include.patch
 BuildRequires:  pkgconfig(Qt5DBus)
 BuildRequires:	pkgconfig(Qt5QuickControls2)
 BuildRequires:	pkgconfig(Qt5Svg)
@@ -30,7 +30,7 @@ Desktop client for Twitch based on QML/C++
 
 
 %prep
-%autosetup -p0 -n %{name}-%{version}
+%autosetup -p1 -n %{name}-%{version}
 
 %build
 mkdir build
